@@ -3,20 +3,44 @@
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+header{
+  height: auto;
 }
 
-.main {
-  padding: 30px 0;
-}
-
-li {
+li{
   list-style: none;
 }
 
-.menu {
+.header-menu li{
+  float: left;
+  padding-left: 20px;
+}
+
+.header-menu{
+  float: right;
+  padding-top: 10px;
+}
+
+.header-in{
+  padding: 20px;
+}
+
+.header-logo{
+  float: left;
+}
+
+main{
+  height: 500px;
+}
+
+footer{
+  height: auto;
+}
+
+.footer-logo{
+  float: left;
+}
+
+.footer-menu{
   float: right;
 }
